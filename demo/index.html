@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ar" lang="ar">
+
+<head>
+
+<title>jQuery.showCase Plugin Demo</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="../jquery.showCase.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="../jquery-latest.min.js"></script>
+<script type="text/javascript" src="../jquery.showCase.js"></script>
+<script type="text/javascript">
+$(function() {
+  $('#showcaseDemo')
+    .showCase({
+      width: 680,
+      height: 350,
+      titleHeight: 60,
+      navWidth: 240
+    });
+});
+</script>
+
+</head>
+
+<body>
+
+<div id="showcaseDemo">
+  <div id="item-1" style="display:none;">
+    <span class="item-date">2012-04-01 20:45:54</span>
+    <span class="item-url">http://dharyk.net/</span>
+    <span class="item-title">Motorbike</span>
+    <span class="item-image">image1.jpg</span>
+    <span class="item-description">Image of a Ducati motorbike</span>
+  </div>
+  <div id="item-2" style="display:none;">
+    <span class="item-date">2012-04-02 14:32:05</span>
+    <span class="item-url">http://dharyk.net/</span>
+    <span class="item-title">Magic: the Gathering</span>
+    <span class="item-image">image2.jpg</span>
+    <span class="item-description">Karn Liberated</span>
+  </div>
+  <div id="item-3" style="display:none;">
+    <span class="item-date">2012-04-03 07:54:02</span>
+    <span class="item-url">http://dharyk.net/</span>
+    <span class="item-title">Landscape 1</span>
+    <span class="item-image">image3.jpg</span>
+    <span class="item-description">Landscape 1</span>
+  </div>
+  <div id="item-4" style="display:none;">
+    <span class="item-date">2012-04-04 02:12:05</span>
+    <span class="item-url">http://dharyk.net/</span>
+    <span class="item-title">Landscape 2</span>
+    <span class="item-image">image4.jpg</span>
+    <span class="item-description">Landscape 2</span>
+  </div>
+  <div id="item-5" style="display:none;">
+    <span class="item-date">2012-04-05 21:22:23</span>
+    <span class="item-url">http://dharyk.net/</span>
+    <span class="item-title">Sheep</span>
+    <span class="item-image">image5.jpg</span>
+    <span class="item-description">Yup, sheep :)</span>
+  </div>
+</div>
+
+</body>
+
+</html>
